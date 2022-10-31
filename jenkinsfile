@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("mongey-image")
+       app = docker.build("ahmedmongey/mongey-image")
     }
 
     stage('Test image') {
